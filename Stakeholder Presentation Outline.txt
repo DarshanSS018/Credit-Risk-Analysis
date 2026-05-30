@@ -1,0 +1,90 @@
+Stakeholder Presentation for Credit Risk Analysis
+
+------
+Slide 1: Introduction
+Title: Credit Risk Analysis: Predicting Loan Defaults
+
+Objective:
+The primary objective is to build a predictive model that identifies the likelihood of a client defaulting on a loan.
+Secondarily, the project aims to understand the key variables that contribute to loan defaults.
+Overall, the goal is to empower financial institutions in making informed and efficient decisions regarding loan approvals.
+Agenda:
+
+Overview of Credit Risk
+Data Insights
+Methodology
+Model Performance
+Implications and Next Steps
+Conclusion
+
+------
+Slide 2: Overview
+Title: Problem Statement & Purpose
+
+Problem Statement: Managing credit risk is crucial for financial stability. The defaulting of loans has both financial and reputational implications for institutions.
+
+Purpose:
+To utilize machine learning techniques to predict loan defaults accurately.
+To identify key variables that influence the risk of default.
+
+------
+Slide 3: Data Insights
+Title: Dataset & Features
+
+Features:
+Personal Information: ID, Age
+Financial Information: Income, Home Ownership (Own, Mortgage, Rent), Employment Length, Loan Amount, Interest Rate, Percentage of Income going towards loan, Previous Default Records, Length of Credit History.
+Target Variable:
+Status: Indicates whether the loan is Fully Paid, Charged Off, or Current. This is our target variable for prediction.
+
+------
+Slide 4: Methodology
+Title: Approach & Process
+
+Data Exploration and Cleaning: Identified outliers, missing values, and did data imputation where necessary.
+Feature Engineering: Created new variables that might affect the target.
+Model Selection: Employed algorithms like Random Forest, Gradient Boosting, and SVM among others.
+Model Evaluation: Metrics such as Accuracy, Precision, Recall, and F1 Score were used.
+Deployment: Future scope to integrate the model into live decision-making systems.
+
+------
+Slide 5: Tools & Technologies
+Title: Technical Stack
+
+Programming Language: Python
+Data Manipulation: Pandas
+Machine Learning: Scikit-learn, PyCaret
+Data Visualization: Matplotlib, Seaborn
+
+------
+Slide 6: Model Metrics
+Title: How Well Did We Do?
+
+Test Accuracy: A remarkable 93.22%, indicating the model's high reliability in predicting loan defaults.
+Precision: At 93.96%, the model has a very low rate of false positives.
+Recall: The model correctly identifies approximately 73.65% of all actual defaults.
+F1 Score: A score of 82.58% suggests a balanced model.
+AUC-ROC: An excellent score of 96.14% confirms the quality and robustness of the model.
+
+------
+Slide 7: Interpretation & Implications
+Title: What Does This Mean for Us?
+
+Precision: The high precision means that loans labeled as 'default' are indeed very likely to default, safeguarding the institution from financial loss.
+
+Recall: While the recall isn't as high as precision, it's still significant. It means we are capturing a large proportion of potential defaults, thereby reducing risk.
+
+------
+Slide 8: Next Steps & Future Work
+Title: Where Do We Go From Here?
+
+Feature Engineering: Further refinement can improve the model.
+Dataset: Include more variables that could influence credit risk.
+Updates: The model should be regularly updated to adapt to financial landscape changes.
+
+------
+Slide 9: Conclusion
+Title: Final Takeaways
+
+The model has shown strong performance in both testing and validation phases, making it both practical and reliable.
+It stands to benefit all stakeholders involved by promising more informed, efficient, and responsible lending practices.
