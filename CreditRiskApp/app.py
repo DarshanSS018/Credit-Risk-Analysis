@@ -237,14 +237,14 @@ with st.sidebar:
 
 # ─── Route to pages ───────────────────────────────────────────────────────────
 if "Home" in page:
-    from pages.home import show
+    from views.home import show
     show()
 elif "Prediction" in page:
-    from pages.prediction import show
+    from views.prediction import show
     show()
 elif "Dashboard" in page:
-    from pages.dashboard import show
+    from views.dashboard import show
     show()
 elif "About" in page:
-    from pages.about import show
+    from views.about import show
     show()
