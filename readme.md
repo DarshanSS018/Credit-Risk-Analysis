@@ -133,6 +133,7 @@ python train_model.py
 #### 4. Run the Streamlit Application
 Start the Streamlit local server:
 ```bash
+cd CreditRiskApp
 streamlit run app.py
 ```
 
