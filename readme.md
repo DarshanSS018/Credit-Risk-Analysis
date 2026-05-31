@@ -96,3 +96,44 @@ Regular updates to the model should be considered to adapt to evolving financial
 ### Final Thoughts
 
 The results of this project are promising, offering a practical and reliable resource for identifying loan default risk. This model stands to benefit both financial institutions and consumers by fostering more informed and responsible lending practices.
+
+---
+
+## 🌊 Streamlit Web Application
+
+This project includes a fully interactive, professional Streamlit web interface to explore the dataset and perform loan risk assessment in real-time.
+
+### Features
+1. **🏠 Home**: Overview, problem statement, business objective, and ML pipeline walkthrough.
+2. **🔮 Prediction**: Interactive input fields to compute credit risk probabilities, risk levels (Low, Medium, High), and recommendations.
+3. **📊 Dashboard**: 8+ interactive data visualizations (Plotly) exploring applicant demographics, loan features, and default patterns.
+4. **ℹ️ About**: In-depth description of the model, data preprocessing pipeline, evaluation metrics, and project details.
+
+### Setup and Running Instructions
+
+Follow these steps to run the interactive web application:
+
+#### 1. Navigate to the App Folder
+```bash
+cd CreditRiskApp
+```
+
+#### 2. Install Dependencies
+Ensure you have Python 3.10+ installed. Install the required libraries:
+```bash
+pip install -r requirements.txt
+```
+
+#### 3. Train and Save the Model
+Generate the model bundle (`model.pkl`) using the training script:
+```bash
+python train_model.py
+```
+
+#### 4. Run the Streamlit Application
+Start the Streamlit local server:
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser automatically at **http://localhost:8501**.
