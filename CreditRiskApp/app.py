@@ -194,8 +194,8 @@ html, body, [class*="css"] {
 /* ── Plot backgrounds ── */
 .js-plotly-plot .plotly .bg { fill: transparent !important; }
 
-/* ── Hide Streamlit branding ── */
-#MainMenu, footer, header { visibility: hidden !important; }
+/* ── Hide Streamlit branding without hiding the sidebar toggle ── */
+#MainMenu, footer { visibility: hidden !important; }
 </style>
 """, unsafe_allow_html=True)
 
